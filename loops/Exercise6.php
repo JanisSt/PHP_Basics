@@ -1,6 +1,6 @@
 <?php
 
-class Pyramid
+class AsciiFigure
 {
     public function Draw($x)
     {
@@ -22,4 +22,4 @@ class Pyramid
 echo "Enter a size of the Pyramid: " . PHP_EOL;
 $x = (int)(readline());
 
-Pyramid::Draw($x);
+AsciiFigure::Draw($x);
